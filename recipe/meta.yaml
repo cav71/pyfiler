@@ -1,0 +1,20 @@
+package:
+    name: pyfiler
+    version: "0.0.1"
+
+about:
+    author: A. Cavallo
+
+
+source:
+    path: ..
+
+
+requirements:
+    build:
+        - python
+        - pyyaml
+
+    run:
+        - python
+
